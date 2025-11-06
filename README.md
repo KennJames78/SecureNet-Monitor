@@ -9,7 +9,7 @@
 ![Scapy](https://img.shields.io/badge/Scapy-2.4+-orange.svg)
 ![SQLite](https://img.shields.io/badge/SQLite-3.0+-lightgrey.svg)
 
-## 🚀 Features
+##  Features
 
 - **Real-time Network Monitoring**: Continuous packet capture and analysis using Scapy
 - **Advanced Threat Detection**: Automated detection of:
@@ -30,7 +30,7 @@
 - Network interface access
 - Modern web browser for dashboard
 
-## 🛠️ Installation
+##  Installation
 
 1. **Clone the repository:**
    ```bash
@@ -54,7 +54,7 @@
    python database.py
    ```
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Basic Usage
 
@@ -88,7 +88,7 @@ sudo python app.py --debug
 sudo python app.py --network 192.168.1.0/24
 ```
 
-## 📊 Dashboard Features
+##  Dashboard Features
 
 ### Real-time Monitoring
 - **Live Traffic Feed**: Real-time packet analysis and display
@@ -107,7 +107,7 @@ sudo python app.py --network 192.168.1.0/24
 - **Forensic Analysis**: Detailed packet inspection and analysis
 - **Report Generation**: Automated security reports
 
-## 🔧 Configuration
+## Configuration
 
 ### Basic Configuration
 
@@ -154,7 +154,7 @@ ALERT_SETTINGS = {
 }
 ```
 
-## 📡 API Documentation
+## API Documentation
 
 ### Endpoints
 
@@ -188,7 +188,7 @@ GET /api/stats?timeframe=1h
 GET /api/threats/<threat_id>
 ```
 
-## 🧪 Testing
+## Testing
 
 ### Unit Tests
 ```bash
@@ -205,7 +205,7 @@ python -m pytest tests/integration/
 python tests/performance_test.py
 ```
 
-## 📈 Performance Metrics
+## Performance Metrics
 
 - **Detection Accuracy**: 99.2%
 - **Response Time**: < 1 second for critical alerts
@@ -213,14 +213,14 @@ python tests/performance_test.py
 - **Memory Usage**: < 512MB under normal load
 - **CPU Usage**: < 15% on modern hardware
 
-## 🔒 Security Considerations
+## Security Considerations
 
 - **Privilege Requirements**: Requires root/admin privileges for packet capture
 - **Network Access**: Monitor network interfaces and traffic
 - **Data Storage**: Sensitive network data stored in local database
 - **Web Interface**: Secure authentication recommended for production
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 ### Common Issues
 
@@ -252,7 +252,7 @@ export LOG_LEVEL=DEBUG
 python app.py
 ```
 
-## 📝 Logging
+## Logging
 
 Logs are stored in multiple locations:
 - **Application logs**: `logs/app.log`
@@ -260,33 +260,7 @@ Logs are stored in multiple locations:
 - **Database logs**: `logs/database.log`
 - **Error logs**: `logs/error.log`
 
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Add tests for new functionality
-5. Submit a pull request
-
-## 📄 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## 🙏 Acknowledgments
-
-- **Scapy**: Powerful packet manipulation library
-- **Flask**: Lightweight web framework
-- **Chart.js**: Beautiful charts for the dashboard
-- **SQLite**: Reliable embedded database
-
-## 📞 Support
-
-For support and questions:
-- Create an issue on GitHub
-- Email: support@securenet-monitor.com
-- Documentation: https://docs.securenet-monitor.com
-
-## 🗺️ Roadmap
+## Roadmap
 
 - [ ] Machine learning-based anomaly detection
 - [ ] Integration with SIEM systems
@@ -294,7 +268,3 @@ For support and questions:
 - [ ] Advanced forensic analysis tools
 - [ ] Cloud deployment options
 - [ ] Multi-tenant support
-
----
-
-**Built with ❤️ for network security professionals**
